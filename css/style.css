@@ -16,7 +16,9 @@ nav {
   box-shadow: none;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 3%;
+  margin-top: 13%;
+  z-index: 10;
+  position: fixed;
 }
 
 .container {
@@ -130,11 +132,6 @@ nav {
   font-weight: 500;
 }
 
-.logo {
-  font-size: 1.2rem;
-  color: #0e2431;
-}
-
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
 }
@@ -188,6 +185,7 @@ nav {
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  margin-top: -12px;
 }
 
 .image-grid div {
@@ -214,7 +212,7 @@ nav {
 }
 
 .image01 {
-  background-image: url("http://unsplash.it/500/500?image=941");
+  background-image: url("http://unsplash.it/500/500?image=15");
 }
 .image02 {
   background-image: url("https://random.imagecdn.app/500/500");
