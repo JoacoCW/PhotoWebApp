@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(154, 154, 154, 1) 37%,
+    rgba(187, 187, 187, 1) 100%
+  );
+}
+
+.header {
+  width: 100vw;
+  object-fit: cover;
+}
+
+.row {
+  border: 0px !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Featured */
+
+.featured {
+  position: relative;
+  z-index: 2;
+  transform: translateY(-100px);
+  background-color: rgba(154, 154, 154, 1) 39%;
+}
+
+.featured .icon-box {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: rgb(157, 157, 157);
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+}
+
+.featured .icon-box i {
+  padding: 30px 25px 20px 35px;
+  color: #2e269c;
+  font-size: 42px;
+  display: block;
+  line-height: 0;
+}
+
+.featured .icon-box h3 {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.featured .icon-box p {
+  color: #545454;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.featured .icon-box:hover {
+  background: #2e269c;
+}
+
+.featured .icon-box:hover i,
+.featured .icon-box:hover h3 a,
+.featured .icon-box:hover p {
+  color: #fff;
+}
+
+/* End featured */
+
+/* Meet us */
+
+.nosotros-section {
+  background: linear-gradient(
+    0deg,
+    rgba(154, 154, 154, 1) 39%,
+    rgba(187, 187, 187, 1) 100%
+  );
+  position: relative;
+  transform: translateY(-80px);
+}
+
+.nosotros {
+  background-color: #8d8d8d;
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 769px) {
+  .nosotros {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nosotros {
+    margin: auto;
+    margin-top: 5%;
+  }
+}
+.nosotros-img {
+  margin-top: 5%;
+  border-radius: 50%;
+  width: 85%;
+  margin-left: 11px;
+}
+
+.nosotros-nombre {
+  margin-top: 2%;
+  font-size: 18px;
+}
+
+.nosotros-cargo {
+  font-size: 15px;
+}
+
+.nosotros-carrera {
+  font-size: 13px;
+}
+
+.nosotros-legajo {
+  font-size: 12px;
+}
+
+.nosotros-redes {
+  padding-bottom: 8%;
+}
+
+.nosotros-redes a {
+  color: #313131 !important;
+  margin: 5%;
+}
+
+.nosotros-redes a:hover {
+  color: #2e269c !important;
+}
+
+/* End meet us */
+
+/*Footer */
+
+.logo-img {
+  width: 300px;
+  margin-left: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-img {
+    margin-left: 11%;
+  }
+}
+
+#footer {
+  background: #000000;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #000000;
+  border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747;
+  padding: 60px 0 5px 0;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #545454;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #2e269c;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #2e269c;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #2e269c;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-links {
+    text-align: center;
+  }
+
+  .footer-links ul {
+    margin-left: 20%;
+  }
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
