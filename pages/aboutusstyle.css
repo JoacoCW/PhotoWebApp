@@ -4,11 +4,7 @@
 }
 
 body {
-  background: linear-gradient(
-    0deg,
-    rgba(154, 154, 154, 1) 37%,
-    rgba(187, 187, 187, 1) 100%
-  );
+  background: rgba(154, 154, 154, 1) 37%;
 }
 
 .header {
@@ -79,11 +75,7 @@ body {
 /* Meet us */
 
 .nosotros-section {
-  background: linear-gradient(
-    0deg,
-    rgba(154, 154, 154, 1) 39%,
-    rgba(187, 187, 187, 1) 100%
-  );
+  background: rgba(154, 154, 154, 1) 39%;
   position: relative;
   transform: translateY(-80px);
 }
