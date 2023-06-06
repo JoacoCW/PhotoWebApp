@@ -140,14 +140,8 @@ body {
 /*Footer */
 
 .logo-img {
-  width: 300px;
-  margin-left: 20%;
-}
-
-@media only screen and (max-width: 768px) {
-  .logo-img {
-    margin-left: 11%;
-  }
+  width: 100px;
+  margin-bottom: 5%;
 }
 
 #footer {
