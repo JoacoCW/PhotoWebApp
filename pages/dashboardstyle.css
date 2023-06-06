@@ -16,6 +16,12 @@ body {
   background-attachment: fixed;
 }
 
+.saludo {
+  color: #ffffff;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
 .cents {
   font-size: 12px;
   vertical-align: top;
