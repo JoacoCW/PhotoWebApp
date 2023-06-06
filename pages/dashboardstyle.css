@@ -18,8 +18,28 @@ body {
 
 .saludo {
   color: #ffffff;
-  margin-left: 3%;
-  margin-top: 3%;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+
+.dinero {
+  font-weight: bold;
+  font-size: 25px;
+  color: #036704;
+}
+
+.visitas {
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+}
+
+.dinero2 {
+  text-align: center;
+}
+
+.visitas2 {
+  text-align: center;
 }
 
 .cents {
@@ -27,10 +47,9 @@ body {
   vertical-align: top;
 }
 
-.container {
+.mio {
   background-color: #ffffff;
-  margin-left: 3%;
-  margin-right: 3%;
+  width: 90%;
 }
 
 .icono {
@@ -49,6 +68,11 @@ body {
 
 .boton {
   text-align: left;
+  margin-top: 2%;
+}
+
+h3 {
+  margin-left: 7%;
 }
 
 .foto {
@@ -59,4 +83,40 @@ body {
   height: 180px;
   width: 180px;
   border-radius: 50%;
+}
+
+.datos {
+  margin-top: 12%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nombre {
+  margin-bottom: 5%;
+}
+
+.cantidad {
+  margin-bottom: 5%;
+}
+
+.botones-finales {
+  margin-bottom: 2%;
+  font-size: 20px;
+}
+
+.bi-house-fill {
+  color: #000000;
+}
+
+.bi-cash-coin {
+  color: #036704;
+  font-size: 35px;
+}
+
+.boton-final {
+  color: #000000;
+}
+
+.col-6 a {
+  text-decoration: none;
 }
